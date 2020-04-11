@@ -9,7 +9,6 @@
 body {
     margin: 0;
 }
-
 .container {
     width: 816px;
     margin: 0 auto;
@@ -263,7 +262,7 @@ h2 a:hover {
         padding: 0px;
     }
 
-    .title h1,
+    
     h1,
     h2,
     h3,
@@ -272,7 +271,8 @@ h2 a:hover {
     h6,
     p,
     ul {
-        padding: 20px 20px 0;
+        padding: 20px 20px 0 !important;
+    };
     }
 
     ul {
@@ -288,28 +288,7 @@ h2 a:hover {
         display: none;
     }
 
-    .article h2 {
-        font-size: 29px;
-        line-height: 29px;
-        margin: 0;
-        padding: 20px 20px 0;
-    }
 
-    .article h3 {
-        font-size: 15px;
-        line-height: 29px;
-        margin: 0;
-        padding: 20px 20px 0;
-    }
-
-    h2 ~ h3 {
-        padding: 5px 20px 0 !important;
-    }
-
-    p,
-    ul {
-        font-size: 18px;
-    }
 
 
 }
